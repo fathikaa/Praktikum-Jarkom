@@ -11,23 +11,23 @@ b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas ter
 c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?   
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 - Gunakan filter untuk memilih paket-paket yang terkait dengan FTP menggunakan filter seperti `ftp`.    
-https://i.ibb.co/NTkj8rs/image.png
+![dokumentasi-soal1](https://i.ibb.co/NTkj8rs/image.png)
 - Cari paket yang menunjukkan aktivitas pengunggahan (upload) file. Biasanya, mencakup perintah STOR atau APPE yang digunakan dalam FTP untuk mengunggah file.
 - Setelah menemukan paket yang sesuai dengan aktivitas pengunggahan, Anda dapat melihat sequence number (raw) dan acknowledge number (raw) dalam detail paket   
-https://i.ibb.co/72mgmFs/image.png
+![dokumentasi-soal1](https://i.ibb.co/72mgmFs/image.png)
 - Setelah itu kita cari response dari request aktivitas tadi    
-https://i.ibb.co/2WD0w6y/image.png  
+![dokumentasi-soal1](https://i.ibb.co/2WD0w6y/image.png)  
 - Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag  
-https://i.ibb.co/TKVB6fM/image.png
+![dokumentasi-soal1](https://i.ibb.co/TKVB6fM/image.png)
 
 2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - Kita perlu menganalisis paket-paket HTTP. Kita dapat melakukan ini dengan mengetikkan "http" dalam kotak pencarian di bagian atas jendela Wireshark.  
-https://i.ibb.co/dtpQ30N/image.png
+![dokumentasi-soal2](https://i.ibb.co/dtpQ30N/image.png)
 - Klik pada salah satu paket HTTP dalam daftar hasil pencarian. Di bawah bagian "Hypertext Transfer Protocol", Kita akan melihat informasi tentang server web yang digunakan. Informasi ini akan mencakup nama server dan versi server.
 - Lanjutkan dengan mengklik paket-paket HTTP lainnya untuk memastikan bahwa informasi server web yang digunakan konsisten.  
-https://i.ibb.co/jDQz1cd/image.png  
+![dokumentasi-soal2](https://i.ibb.co/jDQz1cd/image.png)  
 - Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag    
-https://i.ibb.co/Fx7F8cp/image.png
+![dokumentasi-soal2](https://i.ibb.co/Fx7F8cp/image.png)
 
 3. 
 A. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?

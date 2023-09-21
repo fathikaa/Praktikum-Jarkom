@@ -38,7 +38,7 @@ B. Protokol layer transport apa yang digunakan?
 - Lihat jumlah paket yang tercapture setelah menerapkan filter tersebut. Ini akan menjadi jumlah paket yang memiliki IP sumber atau tujuan 239.255.255.250 dan port 3702.
 - Untuk menentukan protokol layer transport yang digunakan, Anda dapat melihat jenis protokol pada kolom "Protokol" dalam daftar paket yang terfilter. Protokol ini akan memberitahu Kita apakah UDP atau TCP digunakan dalam komunikasi ini.
 
-https://ibb.co/2hD52PD
+![dokumentasi-soal3](https://i.ibb.co/2hD52PD/image.png)
 
 4. Untuk menentukan nilai checksum yang didapat dari header pada paket nomor 130 dalam file pcap, Kita perlu menggunakan perangkat lunak pemrosesan paket seperti Wireshark. Berikut adalah langkah-langkahnya:
    1. Buka file pcap menggunakan Wireshark.
@@ -58,7 +58,7 @@ Ini akan menampilkan semua paket yang terkait dengan protokol SMTP. Selanjutnya,
 
 4. Untuk menentukan IP yang merupakan public IP, Anda perlu memeriksa alamat-alamat IP yang ada dalam file pcap dan membandingkannya dengan daftar alamat IP publik. Alamat IP publik umumnya adalah alamat yang bukan bagian dari jaringan lokal atau pribadi. Biasanya, alamat IP publik dimulai dengan angka yang tidak termasuk dalam kisaran alamat IP privat seperti 192.168.0.0/16, 172.16.0.0/12, atau 10.0.0.0/8.
 
-https://ibb.co/fFJX4w5
+![dokumentasi-soal4](https://i.ibb.co/fFJX4w5/image.png)
 
 6. Kode error "server SOURCE ADDRESS 7812 is invalid" yang muncul pada game Valorant terlihat seperti pesan kesalahan yang mengindikasikan bahwa alamat server (SOURCE ADDRESS) dengan nomor 7812 dianggap
 
@@ -75,8 +75,8 @@ tidak valid atau salah. Namun, kode ini mungkin bukan kode kesalahan standar yan
 
 Ini akan memberikan Kita jumlah paket yang menuju alamat IP 184.87.193.88 dalam file pcap yang ada di bawah ini.
 
-https://ibb.co/Tvqmsxb
-https://ibb.co/Ptjtvmb
+![dokumentasi-soal7](https://i.ibb.co/Tvqmsxb/image.png)
+![dokumentasi-soal7](https://i.ibb.co/Ptjtvmb/image.png)
 
 8\. Untuk mengatur Wireshark agar hanya menampilkan semua paket protokol yang menuju port 80, Kita dapat menggunakan kueri filter berikut: **tcp.dstport == 80 orudp.dstport == 80**
 
@@ -118,5 +118,5 @@ Dengan filter ini, Kita dapat fokus pada paket-paket yang sesuai dengan kriteria
 1. Ketikkan telnet untuk memfilter bagian telnet saja
 1. Lakukan analyze dengan menggunakan follow TCP stream
 
-https://ibb.co/4VVZGHp
-https://ibb.co/G9gSVxw
+![dokumentasi-soal10](https://i.ibb.co/4VVZGHp/image.png)
+![dokumentasi-soal10](https://i.ibb.co/G9gSVxw/image.png)

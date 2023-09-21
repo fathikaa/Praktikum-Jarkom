@@ -38,7 +38,7 @@ B. Protokol layer transport apa yang digunakan?
 - Lihat jumlah paket yang tercapture setelah menerapkan filter tersebut. Ini akan menjadi jumlah paket yang memiliki IP sumber atau tujuan 239.255.255.250 dan port 3702.
 - Untuk menentukan protokol layer transport yang digunakan, Anda dapat melihat jenis protokol pada kolom "Protokol" dalam daftar paket yang terfilter. Protokol ini akan memberitahu Kita apakah UDP atau TCP digunakan dalam komunikasi ini.
 
-![dokumentasi-soal3](https://i.ibb.co/2hD52PD/image.png)
+![dokumentasi-soal3]([https://i.ibb.co/2hD52PD])
 
 4. Untuk menentukan nilai checksum yang didapat dari header pada paket nomor 130 dalam file pcap, Kita perlu menggunakan perangkat lunak pemrosesan paket seperti Wireshark. Berikut adalah langkah-langkahnya:
    1. Buka file pcap menggunakan Wireshark.

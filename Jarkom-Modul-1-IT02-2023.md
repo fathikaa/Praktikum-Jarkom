@@ -17,21 +17,19 @@ Anggota:
 - Setelah menemukan paket yang sesuai dengan aktivitas pengunggahan, Anda dapat melihat sequence number (raw) dan acknowledge number (raw) dalam detail paket
 - Setelah itu kita cari response dari request aktivitas tadi
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.001.jpeg)
-
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.002.png)
+https://ibb.co/rQysVK1
+https://ibb.co/RbpCybf
 
 2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - Kita perlu menganalisis paket-paket HTTP. Kita dapat melakukan ini dengan mengetikkan "http" dalam kotak pencarian di bagian atas jendela Wireshark.
 - Klik pada salah satu paket HTTP dalam daftar hasil pencarian. Di bawah bagian "Hypertext Transfer Protocol", Kita akan melihat informasi tentang server web yang digunakan. Informasi ini akan mencakup nama server dan versi server.
 - Lanjutkan dengan mengklik paket-paket HTTP lainnya untuk memastikan bahwa informasi server web yang digunakan konsisten.
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.003.jpeg)
+https://ibb.co/2KNhDqM
+https://ibb.co/MgWcNYf
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.004.png)
-
-3. A. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
-
+3. 
+A. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
 B. Protokol layer transport apa yang digunakan?
 
 - Gunakan filter berikut untuk menemukan paket-paket yang memiliki alamat IP sumber atau tujuan 239.255.255.250 dan port 3702: **ip.addr== 239.255.255.250 &&udp.port == 3702**
@@ -39,7 +37,7 @@ B. Protokol layer transport apa yang digunakan?
 - Lihat jumlah paket yang tercapture setelah menerapkan filter tersebut. Ini akan menjadi jumlah paket yang memiliki IP sumber atau tujuan 239.255.255.250 dan port 3702.
 - Untuk menentukan protokol layer transport yang digunakan, Anda dapat melihat jenis protokol pada kolom "Protokol" dalam daftar paket yang terfilter. Protokol ini akan memberitahu Kita apakah UDP atau TCP digunakan dalam komunikasi ini.
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.005.png)
+https://ibb.co/2hD52PD
 
 4. Untuk menentukan nilai checksum yang didapat dari header pada paket nomor 130 dalam file pcap, Kita perlu menggunakan perangkat lunak pemrosesan paket seperti Wireshark. Berikut adalah langkah-langkahnya:
    1. Buka file pcap menggunakan Wireshark.
@@ -59,7 +57,7 @@ Ini akan menampilkan semua paket yang terkait dengan protokol SMTP. Selanjutnya,
 
 4. Untuk menentukan IP yang merupakan public IP, Anda perlu memeriksa alamat-alamat IP yang ada dalam file pcap dan membandingkannya dengan daftar alamat IP publik. Alamat IP publik umumnya adalah alamat yang bukan bagian dari jaringan lokal atau pribadi. Biasanya, alamat IP publik dimulai dengan angka yang tidak termasuk dalam kisaran alamat IP privat seperti 192.168.0.0/16, 172.16.0.0/12, atau 10.0.0.0/8.
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.006.png)
+https://ibb.co/fFJX4w5
 
 6. Kode error "server SOURCE ADDRESS 7812 is invalid" yang muncul pada game Valorant terlihat seperti pesan kesalahan yang mengindikasikan bahwa alamat server (SOURCE ADDRESS) dengan nomor 7812 dianggap
 
@@ -76,9 +74,8 @@ tidak valid atau salah. Namun, kode ini mungkin bukan kode kesalahan standar yan
 
 Ini akan memberikan Kita jumlah paket yang menuju alamat IP 184.87.193.88 dalam file pcap yang ada di bawah ini.
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.007.jpeg)
-
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.008.png)
+https://ibb.co/Tvqmsxb
+https://ibb.co/Ptjtvmb
 
 8\. Untuk mengatur Wireshark agar hanya menampilkan semua paket protokol yang menuju port 80, Kita dapat menggunakan kueri filter berikut: **tcp.dstport == 80 orudp.dstport == 80**
 
@@ -120,6 +117,5 @@ Dengan filter ini, Kita dapat fokus pada paket-paket yang sesuai dengan kriteria
 1. Ketikkan telnet untuk memfilter bagian telnet saja
 1. Lakukan analyze dengan menggunakan follow TCP stream
 
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.009.jpeg)
-
-![](Aspose.Words.eb4535b8-c112-4d93-8344-9519db643a04.010.png)
+https://ibb.co/4VVZGHp
+https://ibb.co/G9gSVxw

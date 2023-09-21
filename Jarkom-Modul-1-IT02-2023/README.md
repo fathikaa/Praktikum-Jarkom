@@ -119,6 +119,6 @@ Dengan filter ini, Kita dapat fokus pada paket-paket yang sesuai dengan kriteria
 1. Ketikkan telnet untuk memfilter bagian telnet saja
 1. Lakukan analyze dengan menggunakan follow TCP stream
 
-![dokumentasi-soal10](https://ibb.co/4VVZGHp/image.png)
+![dokumentasi-soal10](https://i.ibb.co/4VVZGHp/image.png)
 
-![dokumentasi-soal10](https://ibb.co/G9gSVxw/image.png)
+![dokumentasi-soal10](https://i.ibb.co/G9gSVxw/image.png)

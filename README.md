@@ -76,6 +76,7 @@ tidak valid atau salah. Namun, kode ini mungkin bukan kode kesalahan standar yan
 Ini akan memberikan Kita jumlah paket yang menuju alamat IP 184.87.193.88 dalam file pcap yang ada di bawah ini.
 
 ![dokumentasi-soal7](https://i.ibb.co/Tvqmsxb/image.png)
+
 ![dokumentasi-soal7](https://i.ibb.co/Ptjtvmb/image.png)
 
 8\. Untuk mengatur Wireshark agar hanya menampilkan semua paket protokol yang menuju port 80, Kita dapat menggunakan kueri filter berikut: **tcp.dstport == 80 orudp.dstport == 80**

@@ -67,61 +67,30 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 - Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag    
 ![dokumentasi-soal5](https://i.ibb.co/HV4hKR4/image.png)
 
-7. Untuk menemukan jumlah paket yang menuju alamat IP 184.87.193.88 dalam file pcap, Kita dapat menggunakan perangkat lunak pemrosesan paket seperti Wireshark. Berikut adalah langkah-langkahnya:
-1. Buka file pcap menggunakan Wireshark.
-1. Gunakan filter berikut untuk menemukan paket-paket yang menuju alamat IP 184.87.193.88:
+7. Berapa jumlah packet yang menuju IP 184.87.193.88?
+- Gunakan filter berikut untuk menemukan paket-paket yang menuju alamat IP 184.87.193.88: `ip.dst == 184.87.193.88`  
+- Lihat jumlah paket yang tercapture setelah menerapkan filter tersebut    
+![dokumentasi-soal7](https://i.ibb.co/HYD1NG0/image.png) 
+- Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag 
+![dokumentasi-soal7](https://i.ibb.co/S3NLvsH/image.png) 
 
-**ip.dst == 184.87.193.88**
+8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!  
+- Untuk mengatur Wireshark agar hanya menampilkan semua paket protokol yang menuju port 80, Kita dapat menggunakan kueri filter berikut: `tcp.dstport == 80 or udp.dstport == 80`
+Filter ini akan memungkinkan Wireshark untuk menampilkan semua paket yang ditujukan ke port 80, baik itu protokol TCP atau UDP. Kemudian, paket-paket akan diurutkan sesuai dengan abjad alamat IP tujuan jika terdapat lebih dari satu alamat yang dituju. 
+- Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag    
+![dokumentasi-soal8](https://i.ibb.co/9ZJMYZw/image.png) 
 
-3. Setelah menerapkan filter ini, Wireshark akan menampilkan hanya paket-paket yang memiliki alamat IP tujuan 184.87.193.88.
-3. Lihat jumlah paket yang tercapture setelah menerapkan filter tersebut. Ini akan memberikan Kita informasi tentang berapa banyak paket yang menuju ke alamat IP tersebut.
+9. Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34! 
+- Untuk mengatur Wireshark agar hanya menampilkan paket yang berasal dari alamat IP 10.51.40.1 tetapi tidak menuju ke alamat IP 10.39.55.34, Kita dapat menggunakan kueri filter berikut:    
+`ip.src == 10.51.40.1 and ip.dst != 10.39.55.34`
+   
+Filter ini akan memungkinkan Wireshark untuk menampilkan hanya paket-paket yang memiliki alamat sumber (source) 10.51.40.1 dan alamat tujuan (destination) bukan 10.39.55.34. 
+- Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag 
+![dokumentasi-soal9](https://i.ibb.co/FY0k6kS/image.png) 
 
-Ini akan memberikan Kita jumlah paket yang menuju alamat IP 184.87.193.88 dalam file pcap yang ada di bawah ini.
-
-![dokumentasi-soal7](https://i.ibb.co/Tvqmsxb/image.png)
-
-![dokumentasi-soal7](https://i.ibb.co/Ptjtvmb/image.png)
-
-8\. Untuk mengatur Wireshark agar hanya menampilkan semua paket protokol yang menuju port 80, Kita dapat menggunakan kueri filter berikut: **tcp.dstport == 80 orudp.dstport == 80**
-
-Filter ini akan memungkinkan Wireshark untuk menampilkan semua paket yang ditujukan ke port 80, baik itu protokol TCP atau UDP. Kemudian, paket-paket akan diurutkan sesuai dengan abjad alamat IP tujuan jika terdapat lebih dari satu alamat yang dituju. Berikut langkah-langkahnya:
-
-1. Buka Wireshark.
-1. Pilih antarmuka jaringan yang ingin Kita gunakan untuk memantau lalu lintas.
-1. Klik tombol "Mulai" atau "Start" untuk memulai pemantauan lalu lintas.
-1. Di bagian atas jendela Wireshark, Kita akan melihat kotak filter yang disebut "Display Filter" atau "Capture Filter." Ketikkan filter berikut ini:
-
-**tcp.dstport == 80 orudp.dstport == 80**
-
-5. Tekan Enter atau klik tombol "Apply" untuk menerapkan filter tersebut.
-5. Wireshark akan sekarang hanya menampilkan paket-paket yang ditujukan ke port 80. Jika terdapat lebih dari satu alamat IP tujuan, paket-paket akan diurutkan sesuai dengan abjad.
-5. Untuk menghentikan pemantauan, klik tombol "Stop" atau "Berhenti."
-
-Filter ini akan membantu Kita fokus pada lalu lintas yang menuju port 80, yang biasanya digunakan untuk lalu lintas HTTP (web).
-
-9\. Untuk mengatur Wireshark agar hanya menampilkan paket yang berasal dari alamat IP 10.51.40.1 tetapi tidak menuju ke alamat IP 10.39.55.34, Kita dapat menggunakan kueri filter berikut:
-
-**ip.src == 10.51.40.1and ip.dst != 10.39.55.34**
-
-Filter ini akan memungkinkan Wireshark untuk menampilkan hanya paket-paket yang memiliki alamat sumber (source) 10.51.40.1dan alamat tujuan (destination) bukan 10.39.55.34. Berikut adalah langkah-langkahnya:
-
-1. Buka Wireshark dan buka capture file atau mulai memantau lalu lintas pada antarmuka jaringan yang sesuai.
-1. Di bagian atas jendela Wireshark, Anda akan melihat kotak filter yang disebut "Display Filter" atau "Capture Filter." Ketikkan filter berikut ini:
-
-**ip.src == 10.51.40.1and ip.dst != 10.39.55.34**
-
-3. Tekan Enter atau klik tombol "Apply" untuk menerapkan filter tersebut.
-3. Sekarang, Wireshark hanya akan menampilkan paket-paket yang berasal dari alamat IP 10.51.40.1 dan tidak menuju ke alamat IP 10.39.55.34.
-3. Untuk menghentikan pemantauan atau membersihkan filter, klik tombol "Stop"atau "Berhenti"atau hapus filter di kotak filter.
-
-Dengan filter ini, Kita dapat fokus pada paket-paket yang sesuai dengan kriteria yang Anda tentukan, yaitu berasal dari alamat 10.51.40.1dan bukan menuju ke alamat 10.39.55.34.
-
-10\. Ikuti langkah berikut :
-
-1. Buka file pcap no 10
-1. Ketikkan telnet untuk memfilter bagian telnet saja
-1. Lakukan analyze dengan menggunakan follow TCP stream
-
-![dokumentasi-soal10](https://i.ibb.co/4VVZGHp/image.png)
-
-![dokumentasi-soal10](https://i.ibb.co/G9gSVxw/image.png)
+10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! 
+- Ketikkan telnet untuk memfilter bagian telnet saja  
+- Lakukan analyze dengan menggunakan follow TCP stream   
+![dokumentasi-soal10](https://i.ibb.co/d6fJLF3/image.png)   
+- Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag    
+![dokumentasi-soal10](https://i.ibb.co/jgTkTYs/image.png)

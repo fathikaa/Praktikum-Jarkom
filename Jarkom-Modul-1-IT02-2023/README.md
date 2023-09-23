@@ -29,7 +29,7 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 - Lalu kita masukan jawaban yang tepat ke terminal dan mendapat flag    
 ![dokumentasi-soal2](https://i.ibb.co/Fx7F8cp/image.png)
 
-3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: 
+3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:    
 a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?   
 b. Protokol layer transport apa yang digunakan?
 - Gunakan filter berikut untuk menemukan paket-paket yang memiliki alamat IP sumber atau tujuan 239.255.255.250 dan port 3702: `ip.addr== 239.255.255.250 &&udp.port == 3702`
@@ -55,7 +55,7 @@ b. Protokol layer transport apa yang digunakan?
 ![dokumentasi-soal5](https://i.ibb.co/wpjf8nS/image.png)
 - Decode password tersebut ke Base64, lalu kita menemukan password yang dapat kita masukan ke dalam file zip yang diproteksi  
 ![dokumentasi-soal5](https://i.ibb.co/52rxhL7/image.png) 
-- Didalam file zip yang sudah di ekstrak terdapat file txt yang berisikan alamat nc 
+- Didalam file zip yang sudah di ekstrak terdapat file txt yang berisikan alamat nc    
 a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?  
 b. Port berapakah pada server yang digunakan untuk service SMTP?  
 c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?  

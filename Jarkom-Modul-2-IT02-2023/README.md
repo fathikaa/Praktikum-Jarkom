@@ -13,7 +13,9 @@ Sebelum mengerjakan soal ini, kami membuat topologinya sebagai berikut.
 Kemudian kami atur konfigurasi pada setiap node seperti gambar berikut.
 
 a. Pandudewanata sebagai router
+
 ![dokumentasi-soal1](https://i.ibb.co/gzJqnhw/Screenshot-2023-10-11-141641.png)
+
 ![dokumentasi-soal1](https://i.ibb.co/CPr910L/Screenshot-2023-10-11-141701.png)
 
 b. Nakula sebagai client

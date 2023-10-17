@@ -221,7 +221,8 @@ Selanjutnya edit file `etc/bind/named.conf.local` dan tambah :
 `Kemudian restart`
 
 ### Testing
-![dokumentasi-soal6]( )
+![dokumentasi-soal6](https://i.ibb.co/XZKWz6G/image.png)	
+![dokumentasi-soal6](https://i.ibb.co/1sgDCCX/image.png)	
 
 ## Soal 7 dan 8
 
@@ -279,8 +280,10 @@ Lalu buat directory delegasi /etc/bind/arjuna/baratayuda.abimanyu.it2.com dan ed
 Kemudian restart service bind.
 
 ### Testing
-![dokumentasi-soal7]( )
-![dokumentasi-soal8]( )
+![dokumentasi-soal7](https://i.ibb.co/Tc4Sr08/image.png)	
+![dokumentasi-soal7](https://i.ibb.co/CQ3Xywc/image.png)
+![dokumentasi-soal8](https://i.ibb.co/CwXfy0j/image.png)		
+![dokumentasi-soal8](https://i.ibb.co/RD8NkC4/image.png)
 
 ## Soal 9 dan 10
 
@@ -354,8 +357,8 @@ server {
 Setelah file tersebut terkonfigurasi, jalankan  `service nginx restart` dan `service bind9 restart`.
 
 ### Testing
-![dokumentasi-soal9]( )
-![dokumentasi-soal10]( )
+![dokumentasi-soal9](https://i.ibb.co/7psSKJY/image.png)
+![dokumentasi-soal10](https://i.ibb.co/Xp4fgM0/image.png)
 
 ## Soal 11
 
@@ -418,7 +421,7 @@ Kemudian pada  ``/etc/apache2/sites-available/000-default.conf``  isi dengan :
 ```
 
 ### Testing
-![dokumentasi-soal11]( )
+![dokumentasi-soal11](https://i.ibb.co/KwX5Gg3/image.png)
 
 ## Soal 12
 Pada server abimanyu, edit file `/var/www/abimanyu.it2/.htaccess`. Isi dengan :
@@ -436,7 +439,7 @@ Jalankan command `a2enmod rewrite`. Kemudian edit file `/etc/apache2/sites-avail
 ```
 
 ### Testing
-![dokumentasi-soal12]( )
+![dokumentasi-soal12](https://i.ibb.co/KwX5Gg3/image.png)
 
 ## Soal 13
 Edit file `/etc/apache2/sites-available/parikesit.abimanyu.it2.conf` dan isi file dengan :
@@ -469,7 +472,7 @@ Edit file  `/etc/apache2/sites-available/parikesit.abimanyu.it2.conf` dan isi fi
 ```
 
 ### Testing
-![dokumentasi-soal14]( )
+![dokumentasi-soal14](https://i.ibb.co/4JLqvRp/image.png)
 
 ## Soal 15
 
@@ -500,7 +503,7 @@ Edit file `/etc/apache2/sites-available/parikesit.abimanyu.it2.conf` dan isi den
 ```
 
 ### Testing
-![dokumentasi-soal15]( )
+![dokumentasi-soal15](https://i.ibb.co/TYWb1Cr/image.png)
 
 ## Soal 16
 
@@ -531,9 +534,6 @@ Edit file `/etc/apache2/sites-available/parikesit.abimanyu.it2.conf` menjadi :
 	ErrorDocument 403 /error/403.php
 </VirtualHost>
 ```
-
-### Testing
-![dokumentasi-soal16]( )
 
 ## Soal 17
 #### Steps:
@@ -576,6 +576,9 @@ rjp	IN      A	192.234.3.3 ; IP Abimanyu
 Listen 14000
 Listen 14400
 ```
+### Testing
+![dokumentasi-soal17](https://i.ibb.co/tJM6ZdV/image.png)
+
 
 ## Soal 18
 
@@ -617,7 +620,7 @@ Edit file /etc/apache2/sites-available/rjp.baratayuda.abimanyu.it2.conf menjadi 
 ```
 
 ### Testing 
-![dokumentasi-soal18]( )
+![dokumentasi-soal18](https://i.ibb.co/xgn9BSS/image.png)
 
 ## Soal 19
 Pergi ke DNS Master Yudhistira. Lalu edit file  `/etc/bind/abimanyu/abimanyu.it2.com` menjadi 
@@ -681,4 +684,4 @@ RewriteRule .*abimanyu.* /abimanyu.png [R,L]
 ```
 
 ### Testing
-![dokumentasi-soal20]( )
+![dokumentasi-soal20](https://i.ibb.co/sQdkzrQ/image.png)

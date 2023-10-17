@@ -171,8 +171,8 @@ Kemudian edit /etc/bind/arjuna/abimanyu.it2.com seperti ini :
 		; BIND data file for local loopback interface
 		;
 		$TTL    604800
-		@       IN      SOA     abimanyu.d14.com. root.abimanyu.d14.com. (
-		                         2022100601;    ; Serial
+		@       IN      SOA     abimanyu.it2.com. root.abimanyu.it2.com. (
+		                         2		; Serial
 		                         604800         ; Refresh
 		                          86400         ; Retry
 		                        2419200         ; Expire
@@ -339,7 +339,7 @@ Kemudian jalankan  `service php7.2-fpm start` dan `service nginx restart`. Setel
 upstream myweb  {
 	server 192.234.3.5:8003; #IP Wisanggeni
 	server 192.234.3.4:8002; #IP Prabukusuma
-	server 192.198.3.3:8001; #IP Abimanyu
+	server 192.234.3.3:8001; #IP Abimanyu
 }
 
 server {
@@ -375,7 +375,7 @@ $TTL    604800
 @       IN      A       192.234.3.3     ; IP Abimanyu
 www     IN	CNAME	abimanyu.it2.com.
 parikesit IN	A	192.234.3.3     ; IP Abimanyu
-ns1	IN	A	192.234.1.2 ; IP Werk
+ns1	IN	A	192.234.1.2 	; IP Werk
 baratayuda IN	NS	ns1
 ```
 Selanjutnya pada server abimanyu, jalankan command `echo nameserver 192.168.122.1 > /etc/resolv.conf` untuk menghubungkan dengan internet. Kemudian jalankan `apt-get update` dan `apt-get install apache2` untuk install apache2.   Kemudian jalankan `apt-get install python3-pip` dan `pip3 install gdown` untuk menginstall python3pip dan install gdown untuk mendownload file dari google drive.  Kemudian pergi ke directory  `cd /var/www` dan download zip files. 

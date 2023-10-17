@@ -19,27 +19,35 @@ a. Pandudewanata sebagai router
 ![dokumentasi-soal1](https://i.ibb.co/CPr910L/Screenshot-2023-10-11-141701.png)
 
 b. Nakula sebagai client
+
 ![dokumentasi-soal1](https://i.ibb.co/DY2wnW9/Screenshot-2023-10-11-142109.png)
 
 c. Sadewa sebagai client
+
 ![dokumentasi-soal1](https://i.ibb.co/jhBZ1BQ/Screenshot-2023-10-11-142147.png)
 
 d. Yudhistira sebagai DNS Master
+
 ![dokumentasi-soal1](https://i.ibb.co/dJZ82Hb/Screenshot-2023-10-11-141908.png)
 
 e. Werkudara sebagai DNS Slave
+
 ![dokumentasi-soal1](https://i.ibb.co/kSJKRCt/Screenshot-2023-10-11-141759.png)
 
 f. Arjuna sebagai Load Balancer
+
 ![dokumentasi-soal1](https://i.ibb.co/84Xmhqn/Screenshot-2023-10-11-142225.png)
 
 g. Abimanyu sebagai Webserver
+
 ![dokumentasi-soal1](https://i.ibb.co/GpKrwLM/Screenshot-2023-10-11-142311.png)
 
 h. Prabukusuma sebagai Webserver
+
 ![dokumentasi-soal1](https://i.ibb.co/XYTSNv9/Screenshot-2023-10-11-142345.png)
 
 i. Wisanggeni sebagai Webserver
+
 ![dokumentasi-soal1](https://i.ibb.co/HpFQWN7/Screenshot-2023-10-11-142424.png)
 
 Setelah itu, setiap node diaktifkan dengan mengklik tombol start. Selanjutnya, menjalankan command ```iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.42.0.0/16``` pada router Foosha upaya dapat terkoneksi dengan internet.
@@ -126,7 +134,9 @@ dan isi :
 run `service bind9 restart`.
 
 #### Test
+
 ![dokumentasi-soal2](https://i.ibb.co/y6VjGM7/Screenshot-2023-10-12-160936.png)
+
 ![dokumentadi-soal3](https://i.ibb.co/b6vd7mF/Screenshot-2023-10-12-165312.png)
 
 ## Soal 4 dan 5
@@ -175,7 +185,9 @@ Kemudian edit /etc/bind/arjuna/abimanyu.it2.com seperti ini :
 
 Kemudian restart bind
 ### Testing
+
 ![dokumentasi-soal4](https://i.ibb.co/X2myb7S/Screenshot-2023-10-12-171851.png)
+
 ![dokumentasi-soal5](https://i.ibb.co/25JPsgQ/Screenshot-2023-10-12-182323.png)
 
 ## Soal 6

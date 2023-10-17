@@ -66,7 +66,7 @@ Pada Nakula dilakukan instalasi dnsutils juga dengan menjalankan command:<br>
 
 
 ## Soal 2 dan 3
-Pertama masukan command `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.234.0.0/16` di server yang disambungin ke NAT untuk memberi akses internet untuk semua node. Lalu masukan command `echo nameserver 192.198.122.1 > /etc/resolv.conf` pada semua node yang membutuhkan koneksi internet.
+Pertama masukan command `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.234.0.0/16` di server yang disambungin ke NAT untuk memberi akses internet untuk semua node. Lalu masukan command `echo nameserver 192.168.122.1 > /etc/resolv.conf` pada semua node yang membutuhkan koneksi internet.
 
 Lalu gunakan command `apt-get update` dan `apt-get install bind9 -y` pada DNSMaster dan DNSSlave. 
 

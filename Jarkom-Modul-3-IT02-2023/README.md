@@ -1166,8 +1166,6 @@ ab -n 100 -c 10 -H "Authorization: Bearer $token" http://192.234.4.1:8001/api/me
 ### Result 
 Terdapat error dalam pengiriman sebanyak 100 request. Karena satu worker saja tidak kuat untuk mendapatkan request sebanyak itu 100 dalam waktu yang telah diberikan atau dengan kata lain CPU yang diterima tidak sanggup untuk memproses banyaknya request. Sehingga menyebabkan hanya ``62`` request saja yang berhasil di proses sedangkan ``38`` lainnya tidak berhasil di proses
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/f65ac13d-2b36-4e9c-8b71-43ea2d6ea827)
-
 ![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/c58c1181-e387-476b-a0ef-ffdbe5278614)
 
 ## Soal 18

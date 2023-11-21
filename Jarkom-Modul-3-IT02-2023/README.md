@@ -928,7 +928,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'kelompokit02'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/dad18b05-ea3e-452e-8440-a45354143157)
+![image](https://i.ibb.co/wLJZmR6/image.png)
 
 ### Result
 Setelah itu lakukan pengecekan di salah satu Laravel Worker. Disini kami akan melakukan pengecekan pada worker ``Fern`` dengan melakukan perintah ``shell`` berikut

@@ -1149,7 +1149,7 @@ Dapatkan tokennya terlebih dahulu sebelum mengakses endpoint ``/api/me``
 curl -X POST -H "Content-Type: application/json" -d @login.json http://192.234.4.1:8001/api/auth/login > login_output.txt
 ```
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/40a9b98d-c737-4e03-8e95-4d0c0273fda3)
+![image](https://i.ibb.co/HDn1rBS/image.png)
 
 Lalu jalankan perintah berikut untuk melakukan set ``token`` secara global
 

@@ -1107,11 +1107,11 @@ ab -n 100 -c 10 -p register.json -T application/json http://192.234.4.1:8001/api
 ### Result
 Terdapat error dalam pengiriman sebanyak 100 request. Dikarenakan pada table ``users`` adalah unique. Dimana data ``username`` yang dimasukkan tidak boleh sama. Sehingga menyebabkan hanya ``1`` request saja yang diproses. ``99`` proses lainnya tidak diproses
 
-![image](https://i.ibb.co/YLqR7cT/image.png)
+![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/4f7c6a72-763c-4aed-9d33-3ba40b7ea48e)
 
 Berikut merupakan grafik dan report yang didapat
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/05097fd1-8779-4a3f-8135-15cf48848544)
+![image](https://i.ibb.co/YLqR7cT/image.png)
 
 ## Soal 16
 > Granz Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. Untuk POST /api/auth/login 

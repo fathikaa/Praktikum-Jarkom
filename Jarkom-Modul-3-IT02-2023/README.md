@@ -937,7 +937,7 @@ Setelah itu lakukan pengecekan di salah satu Laravel Worker. Disini kami akan me
 mariadb --host=192.234.2.1 --port=3306 --user=kelompokit02 --password=passwordit02 dbkelompokit02 -e "SHOW DATABASES;"
 ```
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/6f75d17d-e078-442b-bee0-b5082e441fc3)
+![image](https://i.ibb.co/N948zBn/image.png)
 
 ## Soal 14
 > Frieren, Flamme, dan Fern memiliki Granz Channel sesuai dengan quest guide berikut. Jangan lupa melakukan instalasi PHP8.0 dan Composer 

@@ -1335,19 +1335,19 @@ service php8.0-fpm restart
 
 **Script 1**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/f9f3a702-c699-487b-922e-4bdc9cf0f8c9)
+![image](https://i.ibb.co/M2szKQQ/image.png)
 
 **Script 2**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/6550d9fa-6bef-44d7-acf6-84f9d92446b6)
+![image](https://i.ibb.co/ggq9hxT/image.png)
 
 **Script 3**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/1353febe-e4fa-4f5c-82b8-7046d29886fd)
+![image](https://i.ibb.co/QJmRWDz/image.png)
 
 **Script 4**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/eb2fa242-2eb2-4580-ba64-dc296985cbf3)
+![image](https://i.ibb.co/T1YHB2Q/image.png)
 
 ## Soal 20
 > Nampaknya hanya menggunakan PHP-FPM tidak cukup untuk meningkatkan performa dari worker maka implementasikan Least-Conn pada Eisen. Untuk testing kinerja dari worker tersebut dilakukan sebanyak 100 request dengan 10 request/second. (20)
@@ -1390,6 +1390,6 @@ pm.max_spare_servers = 20
 ### Result
 Jika ditambahkan Algoritma ``Load Balancing Least-connection``. Hasil yang didapatkan cukup ``signifikan`` sebagai berikut 
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/76a9467a-e5e9-49b4-9ccd-0be823e29550)
+![image](https://i.ibb.co/WDdDtRB/image.png)
 
 Dapat disimpulkan bahwa algoritma ``Least-connection`` dapat berkerja dengan baik

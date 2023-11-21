@@ -1208,19 +1208,19 @@ ab -n 100 -c 10 -p login.json -T application/json http://www.riegel.canyon.it02.
 
 akan memperoleh hasil sebagai berikut 
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/e490249c-fd50-4849-89d6-57410e0fe424)
+![image](https://i.ibb.co/phwPCr4/image.png)
 
 **Fern**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/6c42fb62-4604-4b98-8ee6-37e4ed29b980)
+![image](https://i.ibb.co/v1KPWTH/image.png)
 
 **Flamme**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/c86dcd29-6adb-4263-8054-8ec069b6cabf)
+![image](https://i.ibb.co/yhBXCyS/image.png)
 
 **Frieren**
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/9c85cdfb-0179-4cd7-8c51-ba5fcd9f2859)
+![image](https://i.ibb.co/YD0rjx1/image.png)
 
 ## Soal 19
 > Untuk meningkatkan performa dari Worker, coba implementasikan PHP-FPM pada Frieren, Flamme, dan Fern. Untuk testing kinerja naikkan -> pm.max_children, pm.start_servers, pm.min_spare_servers, pm.max_spare_servers sebanyak tiga percobaan dan lakukan testing sebanyak 100 request dengan 10 request/second kemudian berikan hasil analisisnya pada Grimoire.

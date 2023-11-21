@@ -1135,7 +1135,7 @@ ab -n 100 -c 10 -p login.json -T application/json http://192.234.4.1:8001/api/au
 ### Result
 Terdapat error dalam pengiriman sebanyak 100 request. Karena satu worker saja tidak kuat untuk mendapatkan request sebanyak itu 100 dalam waktu yang telah diberikan atau dengan kata lain CPU yang diterima tidak sanggup untuk memproses banyaknya request. Sehingga menyebabkan hanya ``63`` request saja yang berhasil di proses sedangkan ``37`` lainnya tidak berhasil di proses
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/3e1664bc-123a-47bd-8318-2eaae62f2d3a)
+![image](https://i.ibb.co/k1N9zNS/image.png)
 
 ![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/4ee43597-bef3-4c0e-bcb6-0237382a6004)
 

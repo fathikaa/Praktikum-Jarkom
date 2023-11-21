@@ -1137,8 +1137,6 @@ Terdapat error dalam pengiriman sebanyak 100 request. Karena satu worker saja ti
 
 ![image](https://i.ibb.co/k1N9zNS/image.png)
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/4ee43597-bef3-4c0e-bcb6-0237382a6004)
-
 ## Soal 17
 > Granz Channel memiliki beberapa endpoint yang harus ditesting sebanyak 100 request dengan 10 request/second. Tambahkan response dan hasil testing pada grimoire. Untuk GET /api/me
 

@@ -1107,7 +1107,7 @@ ab -n 100 -c 10 -p register.json -T application/json http://192.234.4.1:8001/api
 ### Result
 Terdapat error dalam pengiriman sebanyak 100 request. Dikarenakan pada table ``users`` adalah unique. Dimana data ``username`` yang dimasukkan tidak boleh sama. Sehingga menyebabkan hanya ``1`` request saja yang diproses. ``99`` proses lainnya tidak diproses
 
-![image](https://github.com/Caknoooo/go-gin-clean-template/assets/92671053/4f7c6a72-763c-4aed-9d33-3ba40b7ea48e)
+![image](https://i.ibb.co/YLqR7cT/image.png)
 
 Berikut merupakan grafik dan report yang didapat
 

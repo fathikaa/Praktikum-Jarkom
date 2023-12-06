@@ -168,7 +168,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 ### Tree
 Setelah dilakukannya ``penggabungan IP``, sekarang kita melakukan pembagian IP dengan menggunakan ``tree`` pada masing-masing kelompok yang telah dibuat sebelumnya sebagai berikut
 
-![VLSM A09 (1)](https://github.com/Caknoooo/Jarkom-Modul-3-A09-2023/assets/92671053/b8f51411-59f6-413f-a832-4d0414773d57)
+![tree-CIDR drawio](https://github.com/fathikaa/Praktikum-Jarkom/assets/88912492/d3cdd963-c1e1-42d1-a062-551cf909cbfd)
 
 ### Pembagian IP
 Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat sebelumnya 

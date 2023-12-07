@@ -173,7 +173,7 @@ Setelah dilakukannya ``penggabungan IP``, sekarang kita melakukan pembagian IP d
 ### Pembagian IP
 Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat sebelumnya 
 
-![image](https://github.com/fathikaa/Praktikum-Jarkom/assets/88912492/5b896855-a343-4eee-b80a-dddfc45b41b8)
+![image](https://github.com/fathikaa/Praktikum-Jarkom/assets/88912492/20fc5e79-8640-4200-bad1-a79e4fccecf6)
 
 ### Testing 
 

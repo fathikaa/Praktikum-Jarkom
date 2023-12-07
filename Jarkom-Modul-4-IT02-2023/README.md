@@ -168,7 +168,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 ### Tree
 Setelah dilakukannya ``penggabungan IP``, sekarang kita melakukan pembagian IP dengan menggunakan ``tree`` pada masing-masing kelompok yang telah dibuat sebelumnya sebagai berikut
 
-![tree-CIDR drawio](https://github.com/fathikaa/Praktikum-Jarkom/assets/88912492/d3cdd963-c1e1-42d1-a062-551cf909cbfd)
+![tree-CIDR drawio (1)](https://github.com/fathikaa/Praktikum-Jarkom/assets/88912492/a4059074-c4fc-45fc-870d-58324952f9bc)
 
 ### Pembagian IP
 Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat sebelumnya 

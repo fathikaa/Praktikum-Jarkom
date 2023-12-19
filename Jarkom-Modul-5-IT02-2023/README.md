@@ -431,9 +431,6 @@ iptables -A INPUT -s 192.234.0.2 -m time --datestart 2023-10-19T00:00 --datestop
 
 ```
 
-<img width="632" alt="Screenshot 2023-12-16 at 01 27 30" src="https://github.com/thoriqagfi/Jarkom-Modul-5-IT02-2023/assets/86884506/a9daface-4509-48d8-b2aa-5a89e1dc67b8">
-
-
 9. Sadar akan adanya potensial saling serang antar kubu politik, maka WebServer harus dapat secara otomatis memblokir  alamat IP yang melakukan scanning port dalam jumlah banyak (maksimal 20 scan port) di dalam selang waktu 10 menit. (clue: test dengan nmap)
 
   - Sein
@@ -461,6 +458,4 @@ logging dapat ditambahkan dengan syntax iptables berikut yang dijalankan di semu
 ```bash
 iptables -A INPUT -j LOG --log-level debug --log-prefix "Dropped Packet: " -m limit --limit 1/second --limit-burst 10
 ```
-<img width="1274" alt="Screenshot 2023-12-16 at 01 41 57" src="https://github.com/thoriqagfi/Jarkom-Modul-5-IT02-2023/assets/86884506/e553caa1-af9b-4e86-b26f-70cae46fa30e">
-
 dapat dilihat, pada server sein, telah ditambahkan rules tentang log dengan prefix "paket didrop:"

@@ -319,10 +319,6 @@ Karena kita menggunakan IP DHCP sebagai sebagai jalur keluar ke internet, maka k
 
 Selanjutnya, untuk menyambungkan ke nat, maka kita masukkan ke NAT Table dengan POSTROUTING chain : `iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source $ETH0_IP`
 
-**Hasil**
-
-![IP Aura](/images/1-aura.png)
-
 2. Kalian diminta untuk melakukan drop semua TCP dan UDP kecuali port 8080 pada TCP.
 
   - GrobeForest, Stark, and Sein
